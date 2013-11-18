@@ -5,9 +5,9 @@ A file storage backend for django appengine projects that uses google cloud stor
 
 If you run your projects on Google's appengine and you are using the django framework you might need this
 file backend since there is no way to upload files, images, etc on appengine. Although solutions exist for
-the amazon cloud storage i have not find a file backend for google cloud storage. This backend does work
-with google cloud storage although in early development. I have used it with regular file uploads and with
-file manager solutions such as django-filer. The code as it is right now stores files for public use (i.e. a web site images)
+the amazon cloud storage i have not found a file backend for google cloud storage. This backend does work
+with google cloud storage, although in early development. I have used it with regular file uploads and with
+file manager solutions such as django-filer. The code as it is right now stores files for public use (i.e. a web site's images)
 
 Prerequisites
 -------------
@@ -17,7 +17,7 @@ projects, since there is no authentication mechanism with the google cloud stora
 
 You need to download the GCS client library from
 https://developers.google.com/appengine/docs/python/googlecloudstorageclient/download
-and install in in your project directory.
+unzip the file and copy the cloudstorage folder, found in the src folder, and install in in your project directory.
 
 Installation
 -------------
