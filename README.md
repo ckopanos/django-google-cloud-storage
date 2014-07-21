@@ -15,9 +15,10 @@ Prerequisites
 You need to have an appengine project. This will not work as a standalone solution for non appengine django
 projects, since there is no authentication mechanism with the google cloud storage implemented.
 
-You need to download the GCS client library from
-https://developers.google.com/appengine/docs/python/googlecloudstorageclient/download
-unzip the file and copy the cloudstorage folder, found in the src folder, and install in in your project directory.
+You need to install the GCS client library from
+https://developers.google.com/appengine/docs/python/googlecloudstorageclient/download.
+
+Just run `pip install GoogleAppEngineCloudStorageClient -t <your_app_directory/lib>`, or optionally, unzip the file and copy the `src/cloudstorage` folder into your project directory.
 
 Installation
 -------------
